@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: 'Gideon Roman', cursive;
+}
+.background{
+    background-image: url(images/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 5%;
+    height: 10%;
+}
+h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+nav{
+    background-color: black;
+    width: 95%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.mini_container{
+    color: white;
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+.sous-div{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: white;
+    height: 100px;
+    width: 150px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+p{
+    text-align: justify;
+    font-size: 12px;
+    margin: 0 12px;
+    width: 60%;
+}
+
+
+.links:focus{
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.links:hover{
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.links:active{
+    background-color: rgba(128, 128, 128, 0.459);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu{
+    display: none;
+}
+figcaption{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.550);
+}
+.para-histoire{
+    font-size: 22px;
+}
+h2{
+font-size: 26px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 1020px){
+    .media{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+    nav{
+        justify-content: flex-end
+    }
+    ul{
+        list-style-type: none;
+    }
+    .sous{
+        display: none;
+    }
+    #menu:hover .sous{
+        display: block;
+    }
+    .sous a{
+        display: inline;
+    }
+    .sous li:hover{
+        background-color: grey;
+    }
+  
+    
+}
