@@ -55,6 +55,7 @@ nav{
     flex-direction: row;
     gap: 25px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -113,6 +114,10 @@ main{
     flex-direction: column;
     align-items: center;
 }
+#logo{
+    position: relative; 
+    width: 100%;
+}
 @media (max-width: 1020px){
     .media{
         display: none;
@@ -121,7 +126,7 @@ main{
         display: block;
     }
     nav{
-        justify-content: flex-end
+        justify-content: center;
     }
     ul{
         list-style-type: none;
@@ -138,6 +143,12 @@ main{
     .sous li:hover{
         background-color: grey;
     }
-  
-    
+    #logo{
+        width: 88px;
+    }
+}
+@media (max-width: 900px){
+    .para-index{
+        display: none;
+    }
 }
