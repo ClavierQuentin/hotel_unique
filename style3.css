@@ -1,0 +1,62 @@
+#container {
+    background-color: darkgoldenrod;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
+}
+p {
+    text-align: left;
+    font-size: 1em;
+}
+.div-contact {
+    width: 200px;
+    margin: 25px;
+    display: inline-block;
+}
+.icone {
+    width: 45px;
+    height: 45px;
+}
+.image-form {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 70%;
+    height: 80px;
+    padding: 15px 10px;
+    margin: 1px 0;
+    border-radius: 8px;
+    background-color: darkkhaki;
+}
+.contactgeneral {
+    float: left;
+}
+.formulaire {
+    float: right;
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    border-radius: 8px;
+}
+button {
+    width: 20%;
+    background-color: aqua;
+}
+textarea {
+    height: 220px;
+}
+.sous-div-contact{
+    display: flex;
+    align-items: center;
+}
